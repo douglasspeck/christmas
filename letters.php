@@ -49,12 +49,12 @@
         <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 
         <!-- Stylesheets -->
-        <link rel="preload" as="style" onload="this.remove();" href="assets/css/main.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/main.css" type="text/css">
-        <link rel="preload" as="style" onload="this.remove();" href="assets/css/nth.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/nth.css" type="text/css">
-        <link rel="preload" as="style" onload="this.remove();" href="assets/css/letters.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/letters.css" type="text/css">
+        <link rel="preload" as="style" onload="this.remove();" href="assets/css/main.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
+        <link rel="stylesheet" href="assets/css/main.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
+        <link rel="preload" as="style" onload="this.remove();" href="assets/css/nth.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
+        <link rel="stylesheet" href="assets/css/nth.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
+        <link rel="preload" as="style" onload="this.remove();" href="assets/css/letters.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
+        <link rel="stylesheet" href="assets/css/letters.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
 </head>
 <body>
     <header>
