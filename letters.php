@@ -18,8 +18,8 @@
 
     $people = [
         "merhy" => new Person("Merhy Endy", "cassio"),
-        "rita" => new Person("Rita", ""),
-        "fur" => new Person("Fur", ""),
+        "rita" => new Person("Rita", "seupereira"),
+        "fur" => new Person("Fur", "formigaatomica"),
         "julia" => new Person("Julia", "abacaxi"),
         "mae" => new Person("Edna", ""),
         "denis" => new Person("Denis", ""),

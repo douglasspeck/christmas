@@ -57,8 +57,8 @@
                     <div class="branch"><a href=""><span class="branch"></span></a></div>
                     <div class="branch"><a href=""><span class="branch"></span></a></div>
                     <div class="branch"><a href=""><span class="branch"></span></a></div>
-                    <div class="branch"><a href=""><span class="branch"></span></a></div>
-                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href="letters.php?q=fur&p=o"><span class="branch">Fur</span></a></div>
+                    <div class="branch"><a href="letters.php?q=rita&p=a"><span class="branch">Rita</span></a></div>
                 </section>
                 <section id="top-branches">
                     <div class="branch"></div>
