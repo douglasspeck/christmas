@@ -116,6 +116,7 @@
             }
         
         ?>
+        <a href="/">Página Inicial</a>
         </section>
     </main>
     <footer>

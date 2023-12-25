@@ -40,6 +40,14 @@ main {
     display: flex;
 }
 
+#letter > a {
+    font-weight: 600;
+    margin-top: 5vh;
+    background: linear-gradient(to bottom right, var(--gold), var(--pinky));
+    padding: 5px;
+    border-radius: 5px;
+}
+
 @media screen and (orientation: portrait) {
 
     main {
