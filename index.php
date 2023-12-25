@@ -45,44 +45,20 @@
             </section>
             <section id="tree-branches">
                 <section id="bottom-branches">
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href="letters.php?q=julia&p=a"><span class="branch">Julia</span></a></div>
+                    <div class="branch"><a href="letters.php?q=merhy&p=a"><span class="branch">Merhy</span></a></div>
                 </section>
                 <section id="middle-branches">
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
-                    <div class="branch">
-                        <a href="letters.php?q=merhy"><img src="assets/img/speck.jpeg" class="branch"></a>
-                    </div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href=""><span class="branch"></span></a></div>
                 </section>
                 <section id="top-branches">
                     <div class="branch"></div>

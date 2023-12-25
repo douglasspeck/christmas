@@ -46,12 +46,16 @@
     --rot: inherit;
     z-index: calc(11 - max(var(--rot) - 330 , 330 - var(--rot)) / 60);
     display: flex;
+    align-items: center;
+    justify-content: center;
     position: absolute;
     width: calc(15 * var(--w));
     height: calc(15 * var(--w));
-    overflow: hidden;
     border-radius: 100%;
     top: calc(15 * var(--w));
+    text-shadow: #222 1px 1px;
+    font-size: 1.25em;
+    font-weight: 500;
 }
 
 #tree-branches > section > .branch > a > img {
@@ -98,6 +102,18 @@
 #tree-branches > #bottom-branches > .branch > a {
     top: calc(55 * var(--h));
     left: calc(10 * var(--w));
+}
+
+#tree-branches > #middle-branches > .branch:nth-child(2n) > a,
+#tree-branches > #bottom-branches > .branch:nth-child(2n+1) > a {
+    background-color: var(--pinky);
+}
+
+#tree-branches > #middle-branches > .branch:nth-child(2n+1) > a,
+#tree-branches > #bottom-branches > .branch:nth-child(2n) > a {
+    background-color: var(--gold);
+    color: #000;
+    text-shadow: none;
 }
 
 #tree-log > .log {
