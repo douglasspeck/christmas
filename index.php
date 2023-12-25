@@ -23,11 +23,11 @@
 
         <!-- Stylesheets -->
         <link rel="preload" as="style" onload="this.remove();" href="assets/css/main.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
-        <link rel="stylesheet" href="assets/css/main.css" type="text/css?t=<?php echo date('YmdHis'); ?>">
+        <link rel="stylesheet" href="assets/css/main.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
         <link rel="preload" as="style" onload="this.remove();" href="assets/css/nth.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
-        <link rel="stylesheet" href="assets/css/nth.css" type="text/css?t=<?php echo date('YmdHis'); ?>">
+        <link rel="stylesheet" href="assets/css/nth.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
         <link rel="preload" as="style" onload="this.remove();" href="assets/css/tree.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
-        <link rel="stylesheet" href="assets/css/tree.css" type="text/css?t=<?php echo date('YmdHis'); ?>">
+        <link rel="stylesheet" href="assets/css/tree.css?t=<?php echo date('YmdHis'); ?>" type="text/css">
 </head>
 <body>
     <header>
