@@ -1,0 +1,124 @@
+:root {
+    --leaf-green: #57a209;
+}
+
+#xmas-tree {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333333;
+    position: relative;
+    --w: 0.3vw;
+    --h: 0.65vh;
+}
+
+/* 
+@keyframes rotateZ {
+    0% {
+        transform: perspective(50cm) translateY(calc(-50 * var(--h))) rotate3d(0, 1, 0, calc(var(--rot) * 1deg - 60deg));
+    }
+    100% {
+        transform: perspective(50cm) translateY(calc(-50 * var(--h))) rotate3d(0, 1, 0, calc(var(--rot) * 1deg + 300deg));
+    }
+} */
+
+@keyframes rotateZ {
+    0% {
+        transform: perspective(50cm) translateY(calc(-50 * var(--h))) rotate3d(0, 1, 0, 0deg);
+    }
+    100% {
+        transform: perspective(50cm) translateY(calc(-50 * var(--h))) rotate3d(0, 1, 0, 360deg);
+    }
+}
+
+#tree-branches > section, #tree-logs {
+    transform-style: preserve-3d;
+    animation: rotateZ 30s linear infinite;
+}
+
+#tree-branches > section > .branch {
+    --rot: calc(var(--i) * 60 + 300);
+    transform: rotate3d(0, 1, 0, calc(var(--rot) * 1deg - 60deg));
+}
+
+#tree-branches > section > .branch > a {
+    --rot: inherit;
+    z-index: calc(11 - max(var(--rot) - 330 , 330 - var(--rot)) / 60);
+    display: flex;
+    position: absolute;
+    width: calc(15 * var(--w));
+    height: calc(15 * var(--w));
+    overflow: hidden;
+    border-radius: 100%;
+    top: calc(15 * var(--w));
+}
+
+#tree-branches > section > .branch > a > img {
+    display: block;
+    width: 100%;
+}
+
+#tree-branches > section > .branch::after {
+    content: '';
+    --rot: inherit;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: calc(20 * var(--h)) 0 0 calc(20 * var(--w));
+    border-color: transparent transparent transparent var(--leaf-green);
+    position: absolute;
+    top: 0;
+    transform-origin: top left;
+    z-index: calc(10 - max(var(--rot) - 330 , 330 - var(--rot)) / 60);
+    --shadow: calc(1 - 0.1 * max(var(--rot) - 360, 360 - var(--rot)) / 60);
+    filter: brightness(var(--shadow));
+    pointer-events: none;
+}
+
+/* #tree-branches > section > .branch:nth-child(1) {
+    border-color: transparent transparent transparent red;
+} */
+
+#tree-branches > #middle-branches > .branch::after {
+    top: calc(10 * var(--h));
+    border-width: calc(35 * var(--h)) 0 0 calc(30 * var(--w));
+}
+
+#tree-branches > #middle-branches > .branch > a {
+    top: calc(25 * var(--h));
+    left: calc(5 * var(--w));
+}
+
+#tree-branches > #bottom-branches > .branch::after {
+    top: calc(30 * var(--h));
+    border-width: calc(45 * var(--h)) 0 0 calc(40 * var(--w));
+}
+
+#tree-branches > #bottom-branches > .branch > a {
+    top: calc(55 * var(--h));
+    left: calc(10 * var(--w));
+}
+
+#tree-log > .log {
+    --rot: calc(var(--i) * 120 - 120);
+    width: calc(5 * var(--w));
+    height: calc(25 * var(--h));
+    background-color: brown;
+    position: absolute;
+    top: calc(70 * var(--h));
+    transform-origin: top left;
+    transform: rotate3d(0, 1, 0, calc(var(--rot) * 1deg - 60deg));
+    --shadow: calc(1 - 0.1 * max(var(--rot) - 360, 360 - var(--rot)) / 60);
+    filter: brightness(var(--shadow));
+}
+
+@media screen and (orientation: portrait) {
+    
+    #xmas-tree {
+        width: 100%;
+        --w: 0.9vw;
+    }
+
+}
