@@ -1,0 +1,57 @@
+header {
+    height: 10vh;
+    text-align: center;
+}
+
+main {
+    hyphens: auto;
+    text-align: justify;
+    gap: 5vh;
+    justify-content: start;
+    height: auto;
+    max-height: 75vh;
+}
+
+#letter {
+    background-color: #333333;
+    width: 70%;
+    height: 100%;
+    padding: 5%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#letter input {
+    color: #222222;
+}
+
+#letter input[type="submit"] {
+    padding: 0 5px;
+}
+
+#letter p ~ form {
+    margin-top: 5vh;
+}
+
+#letter form {
+    display: flex;
+}
+
+@media screen and (orientation: portrait) {
+
+    main {
+        max-height: 70vh;
+    }
+
+    #letter {
+        width: 90%;
+    }
+    
+    #letter form {
+        flex-direction: column;
+    }
+
+}
