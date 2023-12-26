@@ -17,18 +17,19 @@
     }
 
     $people = [
-        "merhy" => new Person("Merhy Endy", "cassio"),
-        "rita" => new Person("Rita", "seupereira"),
         "fur" => new Person("Fur", "formigaatomica"),
         "julia" => new Person("Julia", "abacaxi"),
+        "merhy" => new Person("Merhy Endy", "cassio"),
+        "rita" => new Person("Rita", "seupereira"),
+        "lena" => new Person("Lena", "leiterosa"),
+        "pedro" => new Person("Pedro", "saboneteliquido"),
         "mae" => new Person("Edna", ""),
-        "denis" => new Person("Denis", ""),
-        "diogo" => new Person("Diogo", ""),
-        "ary" => new Person("Ary", ""),
-        "lena" => new Person("Lena", ""),
-        "pedro" => new Person("Pedro", ""),
-        "alana" => new Person("Alana", ""),
-        "miau" => new Person("Miau", "")
+        "denis" => new Person("Denis", "meiosangue"),
+        "diogo" => new Person("Diogo", "minecraft"),
+        "ary" => new Person("Ary", "carioca"),
+        "alana" => new Person("Alana", "loirinha"),
+        "miau" => new Person("Miau", "doctorwho"),
+        "malu" => new Person("Malu", "paulista"),
     ];
 
     if (!isset($_GET["q"])) { header("Location: /"); }
