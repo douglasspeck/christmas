@@ -47,7 +47,7 @@
                 <section id="bottom-branches">
                     <div class="branch"><a href=""><span class="branch"></span></a></div>
                     <div class="branch"><a href=""><span class="branch"></span></a></div>
-                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href="letters.php?q=alana&p=a"><span class="branch">Alana</span></a></div>
                     <div class="branch"><a href="letters.php?q=lena&p=a"><span class="branch">Lena</span></a></div>
                     <div class="branch"><a href="letters.php?q=julia&p=a"><span class="branch">Júlia</span></a></div>
                     <div class="branch"><a href="letters.php?q=merhy&p=a"><span class="branch">Merhy</span></a></div>
@@ -55,7 +55,7 @@
                 <section id="middle-branches">
                     <div class="branch"><a href=""><span class="branch"></span></a></div>
                     <div class="branch"><a href=""><span class="branch"></span></a></div>
-                    <div class="branch"><a href=""><span class="branch"></span></a></div>
+                    <div class="branch"><a href="letters.php?q=miau&p=o"><span class="branch">Miau</span></a></div>
                     <div class="branch"><a href="letters.php?q=pedro&p=o"><span class="branch">Pedro</span></a></div>
                     <div class="branch"><a href="letters.php?q=fur&p=o"><span class="branch">Fur</span></a></div>
                     <div class="branch"><a href="letters.php?q=rita&p=a"><span class="branch">Rita</span></a></div>

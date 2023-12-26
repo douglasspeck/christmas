@@ -23,12 +23,12 @@
         "rita" => new Person("Rita", "seupereira"),
         "lena" => new Person("Lena", "leiterosa"),
         "pedro" => new Person("Pedro", "saboneteliquido"),
+        "miau" => new Person("Miau", "rioclaro"),
+        "alana" => new Person("Alana", "loirinha"),
         "mae" => new Person("Edna", ""),
         "denis" => new Person("Denis", "meiosangue"),
         "diogo" => new Person("Diogo", "minecraft"),
         "ary" => new Person("Ary", "carioca"),
-        "alana" => new Person("Alana", "loirinha"),
-        "miau" => new Person("Miau", "doctorwho"),
         "malu" => new Person("Malu", "paulista"),
     ];
 
